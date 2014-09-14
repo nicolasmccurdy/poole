@@ -65,21 +65,21 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
-/* No `:visited` state is required by default (browsers will use `a`) */
+// No `:visited` state is required by default (browsers will use `a`)
 a {
   color: #268bd2;
   text-decoration: none;
   strong {
     color: inherit;
   }
-  /* `:focus` is linked to `:hover` for basic accessibility */
+  // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     text-decoration: underline;
   }
 }
 
-/* Headings */
+// Headings
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
@@ -103,7 +103,7 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
-/* Body text */
+// Body text
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -114,7 +114,7 @@ strong {
 }
 
 
-/* Lists */
+// Lists
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -127,7 +127,7 @@ dd {
   margin-bottom: .5rem;
 }
 
-/* Misc */
+// Misc
 hr {
   position: relative;
   margin: 1.5rem 0;
@@ -147,7 +147,7 @@ abbr {
   }
 }
 
-/* Code */
+// Code
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
@@ -179,7 +179,7 @@ pre {
   }
 }
 
-/* Pygments via Jekyll */
+// Pygments via Jekyll
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
@@ -188,7 +188,7 @@ pre {
   }
 }
 
-/* Gist via GitHub Pages */
+// Gist via GitHub Pages
 .gist {
   .gist-file {
     font-family: Menlo, Monaco, "Courier New", monospace !important;
@@ -212,7 +212,7 @@ pre {
   }
 }
 
-/* Quotes */
+// Quotes
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
@@ -236,7 +236,7 @@ img {
   border-radius: 5px;
 }
 
-/* Tables */
+// Tables
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -337,7 +337,7 @@ tbody tr:nth-child(odd) {
   margin-bottom: 4em;
 }
 
-/* Blog post or page title */
+// Blog post or page title
 .page-title,
 .post-title,
 .post-title a {
@@ -348,7 +348,7 @@ tbody tr:nth-child(odd) {
   margin-top: 0;
 }
 
-/* Meta data line below post title */
+// Meta data line below post title
 .post-date {
   display: block;
   margin-top: -.5rem;
@@ -356,7 +356,7 @@ tbody tr:nth-child(odd) {
   color: #9a9a9a;
 }
 
-/* Related posts */
+// Related posts
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -392,7 +392,7 @@ tbody tr:nth-child(odd) {
  */
 
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: hidden; // clearfix
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -400,7 +400,7 @@ tbody tr:nth-child(odd) {
   text-align: center;
 }
 
-/* Pagination items can be `span`s or `a`s */
+// Pagination items can be `span`s or `a`s
 .pagination-item {
   display: block;
   padding: 1rem;
@@ -410,7 +410,7 @@ tbody tr:nth-child(odd) {
   }
 }
 
-/* Only provide a hover state for linked pagination items */
+// Only provide a hover state for linked pagination items
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
