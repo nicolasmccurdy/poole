@@ -11,6 +11,8 @@ tagline:          The Jekyll Butler
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
+sass:
+  sass_dir:       public/css
 author:
   name:           Mark Otto
   url:            https://twitter.com/mdo
