@@ -83,7 +83,12 @@ a {
 }
 
 // Headings
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -105,7 +110,9 @@ h3 {
   font-size: 1.25rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -122,7 +129,9 @@ strong {
 
 
 // Lists
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -205,6 +214,11 @@ pre {
 .gist {
   .gist-file {
     font-family: Menlo, Monaco, "Courier New", monospace !important;
+
+    .gist-data {
+      font-size: .8rem !important;
+      line-height: 1.4;
+    }
   }
 
   .markdown-body {
@@ -214,11 +228,6 @@ pre {
   pre {
     padding: 0;
     background-color: transparent;
-  }
-
-  .gist-file .gist-data {
-    font-size: .8rem !important;
-    line-height: 1.4;
   }
 
   code {
