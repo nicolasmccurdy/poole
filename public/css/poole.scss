@@ -52,6 +52,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
@@ -69,9 +70,11 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+
   strong {
     color: inherit;
   }
+
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
@@ -87,17 +90,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
+
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
@@ -123,6 +130,7 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
@@ -141,6 +149,7 @@ abbr {
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
+
   &[title] {
     cursor: help;
     border-bottom: 1px dotted #e5e5e5;
@@ -152,6 +161,7 @@ code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
+
 code {
   padding: .25em .5em;
   font-size: 85%;
@@ -159,6 +169,7 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
+
 pre {
   display: block;
   margin-top: 0;
@@ -171,6 +182,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+
   code {
     padding: 0;
     font-size: 100%;
@@ -183,6 +195,7 @@ pre {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
+
   pre {
     margin-bottom: 0;
   }
@@ -193,17 +206,21 @@ pre {
   .gist-file {
     font-family: Menlo, Monaco, "Courier New", monospace !important;
   }
+
   .markdown-body {
     padding: 15px;
   }
+
   pre {
     padding: 0;
     background-color: transparent;
   }
+
   .gist-file .gist-data {
     font-size: .8rem !important;
     line-height: 1.4;
   }
+
   code {
     padding: 0;
     color: inherit;
@@ -218,10 +235,12 @@ blockquote {
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
+
   p:last-child {
     margin-bottom: 0;
   }
 }
+
 @media (min-width: 30em) {
   blockquote {
     padding-right: 5rem;
@@ -243,11 +262,13 @@ table {
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
+
 td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
+
 tbody tr:nth-child(odd) {
   td,
   th {
@@ -309,13 +330,16 @@ tbody tr:nth-child(odd) {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
+
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+
   a {
     color: #505050;
   }
+
   small {
     font-size: 75%;
     font-weight: 400;
@@ -343,6 +367,7 @@ tbody tr:nth-child(odd) {
 .post-title a {
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -362,20 +387,25 @@ tbody tr:nth-child(odd) {
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
+
 .related-posts {
   padding-left: 0;
   list-style: none;
+
   h3 {
     margin-top: 0;
   }
+
   li {
     small {
       font-size: 75%;
       color: #999;
     }
+
     a:hover {
       color: #268bd2;
       text-decoration: none;
+
       small {
         color: inherit;
       }
@@ -405,6 +435,7 @@ tbody tr:nth-child(odd) {
   display: block;
   padding: 1rem;
   border: 1px solid #eee;
+
   &:first-child {
     margin-bottom: -1px;
   }
@@ -419,14 +450,17 @@ a.pagination-item:hover {
   .pagination {
     margin: 3rem 0;
   }
+
   .pagination-item {
     float: left;
     width: 50%;
+
     &:first-child {
       margin-bottom: 0;
       border-top-left-radius:    4px;
       border-bottom-left-radius: 4px;
     }
+
     &:last-child {
       margin-left: -1px;
       border-top-right-radius:    4px;
