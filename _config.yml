@@ -18,6 +18,14 @@ author:
   url:            https://twitter.com/mdo
   email:          markdotto@gmail.com
 
+# Defaults
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+
 # Custom vars
 version:          1.0.0
 github:
